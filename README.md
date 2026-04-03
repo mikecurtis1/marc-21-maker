@@ -81,9 +81,9 @@ docker-compose logs -f app
 
 Run app in browser
 
-[http://localhost:8080](http://localhost:8080)
+* [http://localhost:8080](http://localhost:8080)
 
-Upload a TSV or CSV file (demo file included in the repo)
+Upload a TSV or CSV file (demo file `app/data/books.tsv` included in the repo)
 
 ```text
 L5  L6  L7  number  author        title       pubdate
