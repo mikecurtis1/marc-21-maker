@@ -4,6 +4,9 @@ from marc21 import MARC21Maker
 
 app = Flask(__name__)
 
+@app.before_request
+def log_request():
+    app.logger.info(f"Incoming request: {request.method} {request.path} from {request.remote_addr}")
 
 @app.route("/", methods=["GET"])
 def form():
