@@ -1,5 +1,7 @@
 # marc-21-maker
-Marc-21-maker is a lightweight Python project for generating valid MARC 21 binary records from structured input.
+
+Python-based MARC21 file builder
+Upload a TSV file with book records and generate MARC21 `.mrc` files via a simple web interface. Fully containerized with Flask, Gunicorn, and Nginx.
 
 ---
 
