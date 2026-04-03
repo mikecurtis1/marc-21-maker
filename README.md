@@ -1,7 +1,7 @@
 # marc-21-maker
 
 Python-based MARC21 file builder
-Upload a TSV file with book records and generate MARC21 `.mrc` files via a simple web interface. Fully containerized with Flask, Gunicorn, and Nginx.
+Upload a TSV file with book records and generate MARC 21 ([ISO 2709](https://www.iso.org/standard/41319.html)) `.mrc` files via a simple web interface. Fully containerized with Flask, Gunicorn, and Nginx.
 
 ---
 
