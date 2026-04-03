@@ -4,7 +4,7 @@
 [![Flask](https://img.shields.io/badge/flask-3.0-green.svg)](https://flask.palletsprojects.com/)
 [![Docker](https://img.shields.io/badge/docker-29.2-blue.svg)](https://www.docker.com/)
 
-Python-based MARC 21 ([ISO 2709](https://www.iso.org/standard/41319.html))file builder.
+Python-based MARC 21 ([ISO 2709](https://www.iso.org/standard/41319.html)) file builder.
 
 Upload a TSV file with book records and generate MARC 21 `.mrc` files via a simple web interface. Fully containerized with Flask, Gunicorn, and Nginx.
 
