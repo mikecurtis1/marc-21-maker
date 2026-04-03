@@ -6,7 +6,7 @@ Marc-21-maker is a lightweight Python project for generating valid MARC 21 binar
 ## Installation
 
 ```bash
-git clone
+git clone https://github.com/mikecurtis1/marc-21-maker.git
 ```
 
 Build and start containers
